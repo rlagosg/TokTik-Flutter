@@ -1,16 +1,34 @@
 # toktik
 
-A new Flutter project.
+## Descripción General
 
-## Getting Started
+Toktik, una aplicación Flutter de reproductor vertical al estilo TikTok, destaca por:
 
-This project is a starting point for a Flutter application.
+- Manejo de assets
+- Uso de paquetes
+- Gesture Detector
+- Posicionamiento de Widgets
+- Mappers
+- Gradientes
+- Loops
+- Aserciones
+- Stacks
+- Controladores de video
 
-A few resources to get you started if this is your first Flutter project:
+## Implementación de Repositorios y Datasources
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+En lugar de ser un próximo paso, Toktik ya implementa repositorios y datasources, permitiendo cambiar dinámicamente las fuentes de datos sin alterar el flujo de la aplicación.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Repositorios
+
+Los repositorios actúan como intermediarios para acceder a los datasources. En Toktik, representan las aulas de clase, donde cada "aula" (repositorio) gestiona la obtención de datos de diferentes "profesores" (datasources).
+
+### Datasources
+
+Los datasources son los orígenes de datos. En Toktik, cada "profesor" sigue los lineamientos para proporcionar datos específicos. Esta implementación facilita la flexibilidad al cambiar dinámicamente las fuentes de datos sin afectar la lógica principal de la aplicación.
+
+## Imagenes
+![Captura de pantalla 1](screenShots/1.png)
+![Captura de pantalla 1](screenShots/2.png)
+![Captura de pantalla 1](screenShots/3.png)
+![Captura de pantalla 1](screenShots/4.png)
